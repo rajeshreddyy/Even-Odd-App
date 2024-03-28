@@ -1,0 +1,42 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+}
+
+.bg-container {
+  background: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  margin: 95px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  border-radius: 12px;
+}
+h1 {
+  padding-bottom: 25px;
+  font-family: 'Roboto';
+}
+
+.paragraph {
+  padding: 15px;
+  color: #334155;
+  font-family: 'Roboto';
+}
+button {
+  height: 30px;
+  width: 100px;
+  border-width: 0;
+  border-radius: 5px;
+  color: #334155;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.note {
+  /* padding: 10px; */
+  margin: 10px;
+  color: #334155;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
